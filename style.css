@@ -38,3 +38,15 @@
     font-size: 3.5vmin;
     border-radius: 5px;
   }
+  .quad-circle-1 {
+    clip-path: circle(100% at 0 0);
+  }
+  .quad-circle-2 {
+    clip-path: circle(100% at 100% 0);
+  }
+  .quad-circle-3 {
+    clip-path: circle(100% at 100% 100%);
+  }
+  .quad-circle-4 {
+    clip-path: circle(100% at 0 100%);
+  }
