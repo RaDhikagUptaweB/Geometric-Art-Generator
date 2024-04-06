@@ -50,3 +50,19 @@
   .quad-circle-4 {
     clip-path: circle(100% at 0 100%);
   }
+  .triangle-1 {
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+  }
+  .triangle-2 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+  .triangle-3 {
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  }
+  .triangle-4 {
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+  }
+  .circle {
+    border-radius: 50%;
+  }
+  Javascript:
